@@ -1,0 +1,696 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<% if logged_in? %>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Form Controls | BlueWhale Admin</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/text.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/grid.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/layout.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/nav.css" media="screen" />
+    <!--[if IE 6]><link rel="stylesheet" type="text/css" href="css/ie6.css" media="screen" /><![endif]-->
+    <!--[if IE 7]><link rel="stylesheet" type="text/css" href="css/ie.css" media="screen" /><![endif]-->
+    <link href="css/fancy-button/fancy-button.css" rel="stylesheet" type="text/css" />
+    <!--Jquery UI CSS-->
+    <link href="css/themes/base/jquery.ui.all.css" rel="stylesheet" type="text/css" />
+    <!-- BEGIN: load jquery -->
+    <script src="js/jquery-1.6.4.min.js" type="text/javascript"></script>
+    <script type="text/javascript" src="js/jquery-ui/jquery.ui.core.min.js"></script>
+    <script src="js/jquery-ui/jquery.ui.widget.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.ui.accordion.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.effects.core.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.effects.slide.min.js" type="text/javascript"></script>
+    <!-- END: load jquery -->
+    <!--jQuery Date Picker-->
+    <script src="js/jquery-ui/jquery.ui.widget.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.ui.datepicker.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.ui.progressbar.min.js" type="text/javascript"></script>
+    <!-- jQuery dialog related-->
+    <script src="js/jquery-ui/external/jquery.bgiframe-2.1.2.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.ui.mouse.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.ui.draggable.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.ui.position.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.ui.resizable.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.ui.dialog.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.effects.core.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.effects.blind.min.js" type="text/javascript"></script>
+    <script src="js/jquery-ui/jquery.effects.explode.min.js" type="text/javascript"></script>
+    <!-- jQuery dialog end here-->
+    <script src="js/jquery-ui/jquery.ui.accordion.min.js" type="text/javascript"></script>
+    <!--Fancy Button-->
+    <script src="js/fancy-button/fancy-button.js" type="text/javascript"></script>
+    <script src="js/setup.js" type="text/javascript"></script>
+    <!-- Load TinyMCE -->
+    <script src="js/tiny-mce/jquery.tinymce.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            setupTinyMCE();
+            setupProgressbar('progress-bar');
+            setDatePicker('date-picker');
+            setupDialogBox('dialog', 'opener');
+            $('input[type="checkbox"]').fancybutton();
+            $('input[type="radio"]').fancybutton();
+        });
+    </script>
+    <!-- /TinyMCE -->
+    <style type="text/css">
+        #progress-bar
+        {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container_12">
+        <div class="grid_12 header-repeat">
+            <div id="branding">
+                <div class="floatleft">
+                    <img src="img/logo.png" alt="Logo" /></div>
+                <div class="floatright">
+                    <div class="floatleft">
+                        <img src="img/img-profile.jpg" alt="Profile Pic" /></div>
+                    <div class="floatleft marginleft10">
+                        <ul class="inline-ul floatleft">
+                            <li>Hello Admin</li>
+                            <li><a href="#">Config</a></li>
+                <%= link_to "Log out", logout_path, method: "delete" %>
+                        </ul>
+                        <br />
+                        <span class="small grey">Last Login: 3 hours ago</span>
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="grid_12">
+            <ul class="nav main">
+                <li class="ic-dashboard"><a href="dashboard"><span>Dashboard</span></a> </li>
+                <li class="ic-form-style"><a href="javascript:"><span>Controls</span></a>
+                    <ul>
+                        <li><a href="form-controls">Forms</a> </li>
+                        <li><a href="buttons">Buttons</a> </li>
+                        <li><a href="form-controls">Full Page Example</a> </li>
+                        <li><a href="table">Page with Sidebar Example</a> </li>
+                    </ul>
+                </li>
+				<!--<li class="ic-typography"><a href="typography"><span>Typography</span></a></li>-->
+                <li class="ic-charts"><a href="charts"><span>Charts & Graphs</span></a></li>
+                <li class="ic-grid-tables"><a href="table"><span>Data Table</span></a></li>
+               <!-- <li class="ic-gallery dd"><a href="javascript:"><span>Image Galleries</span></a>
+               		 <ul>
+                        <li><a href="image-gallery">Pretty Photo</a> </li>
+                        <li><a href="gallery-with-filter">Gallery with Filter</a> </li>
+                    </ul>
+                </li>-->
+                <li class="ic-notifications"><a href="notifications"><span>Notifications</span></a></li>
+
+            </ul>
+        </div>
+        <div class="clear">
+        </div>
+        <div class="grid_12">
+            <div class="box round first fullpage">
+                <h2>Form Controls</h2>
+                <div class="block ">
+                    <table class="form">
+			<%= form_tag( {:action => 'upload'} , {:multipart => true, :method => :post }) do %>
+                        <tr>
+                            <td class="col1">
+                                <label>
+                                    Nome del Paziente</label>
+                            </td>
+                            <td class="col2">
+<%= text_field_tag(:pnome, "") %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    Età</label>
+                            </td>
+                            <td>
+<%= text_field_tag(:panni, "") %>
+                            </td>
+                        </tr>
+ <tr>
+                            <td>
+                                <label>
+                                    Sesso</label>
+                            </td>
+                            <td>
+
+<%= radio_button_tag(:pses, "Maschio") %>
+<%= label_tag(:s_male, "Maschio") %>
+<%= radio_button_tag(:pses, "Femmina") %>
+<%= label_tag(:s_female, "Femmina") %>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    Malattia ematologica</label>
+                            </td>
+                            <td>
+<%= text_field_tag(:pmal, "") %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    Data della diagnosi</label>
+                            </td>
+                            <td>
+<%= text_field_tag(:dad, "") %>
+                            </td>
+                        </tr>
+ <td>
+                                <label>
+                                    Esito della malattia</label>
+                            </td>
+                            <td>
+
+<%= radio_button_tag(:pdis, "Recidiva") %>
+<%= label_tag(:pdis_rec, "Recidiva") %>
+<%= radio_button_tag(:pdis, "RC") %>
+<%= label_tag(:pdis_rc, "RC") %>
+<%= radio_button_tag(:pdis, "RP") %>
+<%= label_tag(:pdis_rp, "RP") %>
+<%= radio_button_tag(:pdis, "Progressione") %>
+<%= label_tag(:pdis_pro, "Progressione") %>
+<%= radio_button_tag(:pdis, "Consolidazione") %>
+<%= label_tag(:pdis_con, "Consolidazione") %>
+<%= radio_button_tag(:pdis, "Altro") %>
+<%= label_tag(:pdis_alt, "Altro") %>
+<%= text_field_tag(:pdisa, "" , :placeholder => "se \"altro\" specificare") %>
+                            </td>
+                        </tr>
+                        <tr>
+ <td>
+                                <label>
+                                    Stato</label>
+                            </td>
+                            <td>
+
+<%= radio_button_tag(:psta, "Vivo") %>
+<%= label_tag(:psta_al, "Vivo") %>
+<%= radio_button_tag(:psta, "Deceduto") %>
+<%= label_tag(:psta_de, "Deceduto (specificare la causa)") %>
+<%= radio_button_tag(:psta, "Sconosciuto") %>
+<%= label_tag(:psta_un, "Sconosciuto") %>
+
+<%= text_field_tag(:pstaa, "",:placeholder => "causa del decesso") %>
+<%= text_field_tag(:pstad, "", :placeholder => "data del decesso/ultimo follow-up") %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    Chemioterapia</label>
+                            </td>
+                            <td>
+<%= text_field_tag(:pcdat, "", :placeholder => "data") %>
+<%= text_field_tag(:pcdos, "", :placeholder => "dosaggi e tempi") %>
+                            </td>
+                        </tr>
+
+ <tr>
+                            <td>
+                                <label>
+                                    Paziente sottoposto a trapianto</label>
+                            </td>
+                            <td>
+
+<%= radio_button_tag(:trap, "Si") %>
+<%= label_tag(:tra_si, "Si") %>
+<%= radio_button_tag(:trap, "No") %>
+<%= label_tag(:tra_no, "No") %>
+
+                            </td>
+                        </tr>
+
+
+                        <tr>
+                            <td>
+                                <label>
+                                    Data del trapianto</label>
+                            </td>
+                            <td>
+<%= text_field_tag(:trada, "") %>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label>
+                                    Età del donatore</label>
+                            </td>
+                            <td>
+<%= text_field_tag(:trage, "") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Sesso del donatore</label>
+                            </td>
+                            <td>
+
+<%= radio_button_tag(:trasex, "Maschio") %>
+<%= label_tag(:ts_male, "Maschio") %>
+<%= radio_button_tag(:trasex, "Femmina") %>
+<%= label_tag(:ts_female, "Femmina") %>
+
+                            </td>
+                        </tr>
+
+ <td>
+                                <label>
+                                    Infezione funginia</label>
+                            </td>
+                            <td>
+
+<%= radio_button_tag(:inff, "Provata") %>
+<%= label_tag(:pinf_si, "Provata") %>
+<%= radio_button_tag(:inff, "Probabile") %>
+<%= label_tag(:pinf_pro, "Probabile") %>
+<%= radio_button_tag(:inff, "Possibile") %>
+<%= label_tag(:pinf_pos, "Possibile") %>
+<%= radio_button_tag(:inff, "Negativo") %>
+<%= label_tag(:pinf_no, "Negativo") %>
+<%= text_field_tag(:pinfd, "", :placeholder =>"data dell'infezione") %>
+
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Coltura positiva</label>
+                            </td>
+                            <td>
+
+<%= radio_button_tag(:col, "Si") %>
+<%= label_tag(:col_si, "Si") %>
+<%= radio_button_tag(:col, "No") %>
+<%= label_tag(:col_no, "No") %>
+
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+             
+                            </td>
+                            <td>
+
+<%= radio_button_tag(:cols, "BAL") %>
+<%= label_tag(:cols_bal, "BAL") %>
+<%= radio_button_tag(:cols, "Brush o Biopsia branchiale") %>
+<%= label_tag(:cols_bio, "Brush o Biopsia branchiale") %>
+<%= radio_button_tag(:cols, "Aspirato nasale") %>
+<%= label_tag(:cols_nas, "Aspirato nasale") %>
+<%= radio_button_tag(:cols, "Sputo") %>
+<%= label_tag(:cols_sp, "Sputo") %>
+<%= radio_button_tag(:cols, "Biopsia aperta/endoscopica") %>
+<%= label_tag(:cols_bae, "Biopsia apera/endoscopica") %>
+<%= radio_button_tag(:cols, "Biopsia guidata dal CT") %>
+<%= label_tag(:cols_CT, "Biopsia guidata dal CT") %>
+<%= radio_button_tag(:cols, "Altre biopsie con ago sottile") %>
+<%= label_tag(:cols_ago, "Altre biopsie con ago sottile") %>
+<%= radio_button_tag(:cols, "Altro") %>
+<%= label_tag(:cols_al, "Altro") %>
+<%= radio_button_tag(:cols, "Sconosciuto") %>
+<%= label_tag(:cols_sco, "Sconosciuto") %>
+<%= text_field_tag(:colsa, "",  :placeholder =>"se \"altro\" specificare") %>
+
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Galattomannano positivo</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:gal, "Si") %>
+<%= label_tag(:gal_si, "Si") %>
+<%= radio_button_tag(:gal, "No") %>
+<%= label_tag(:gal_no, "No") %>
+
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                         
+                            </td>
+     <td>
+<%= radio_button_tag(:gals, "BAL") %>
+<%= label_tag(:gals_bal, "BAL") %>
+<%= radio_button_tag(:gals, "Plasma") %>
+<%= label_tag(:gals_pla, "Plasma") %>
+<%= radio_button_tag(:gals, "Siero") %>
+<%= label_tag(:gals_sie, "Siero") %>
+<%= radio_button_tag(:gals, "CSF") %>
+<%= label_tag(:gals_csf, "CSF") %>
+<%= radio_button_tag(:gals, "Altro") %>
+<%= label_tag(:gals_al, "Altro") %>
+<%= radio_button_tag(:gals, "Sconosciuto") %>
+<%= label_tag(:gals_sco, "Sconosciuto") %>
+<%= text_field_tag(:galsa, "", :placeholder =>"se \"altro\" specificare") %>
+
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Beta-glucano positivo</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:bcp, "Si") %>
+<%= label_tag(:bcp_si, "Si") %>
+<%= radio_button_tag(:bcp, "No") %>
+<%= label_tag(:bcp_no, "No") %>
+<%= radio_button_tag(:bcp, "Non effettuato") %>
+<%= label_tag(:bcp_ne, "Non effettuato") %>
+<%= text_field_tag(:bcps,"", :placeholder => "se \"si\" specificare il valore") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    PCR positivo</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:pcr, "Si") %>
+<%= label_tag(:pcr_si, "Si") %>
+<%= radio_button_tag(:pcr, "No") %>
+<%= label_tag(:pcr_no, "No") %>
+<%= radio_button_tag(:pcr, "Non effettuato") %>
+<%= label_tag(:pcr_ne, "Non effettuato") %>
+<%= text_field_tag(:pcrs, "", :placeholder =>"se \"si\" specificare il valore") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Istopatologia positiva</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:ist, "Si") %>
+<%= label_tag(:ist_si, "Si") %>
+<%= radio_button_tag(:ist, "No") %>
+<%= label_tag(:ist_no, "No") %>
+
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                         
+                            </td>
+     <td>
+<%= radio_button_tag(:ists, "BiopsiaAperta/endoscopica") %>
+<%= label_tag(:ists_bae, "Biopsia aperta/endoscopica") %>
+<%= radio_button_tag(:ists, "BiopsiaCT") %>
+<%= label_tag(:ists_ct, "Biopsia guidata dal CT") %>
+<%= radio_button_tag(:ists, "biopsieAgo") %>
+<%= label_tag(:ists_ago, "Altre biopsie con ago sottile") %>
+<%= radio_button_tag(:ists, "altro") %>
+<%= label_tag(:ists_al, "Altro") %>
+<%= radio_button_tag(:ists, "Sconosciuto") %>
+<%= label_tag(:ists_sco, "Sconosciuto") %>
+<%= text_field_tag(:istsa, "", :placeholder =>"se \"altro\" specificare") %>
+
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Identificazione del fungo</label>
+                            </td>
+
+                            <td>
+<%= text_field_tag(:idfu, "") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Profilassi antifungina</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:paf, "Si") %>
+<%= label_tag(:paf_si, "Si") %>
+<%= radio_button_tag(:paf, "No") %>
+<%= label_tag(:paf_no, "No") %>
+<%= text_field_tag(:pafd, "", :placeholder =>"Farmaci/dosaggi/tempi") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Terapia antifungina</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:taf, "Si") %>
+<%= label_tag(:taf_si, "Si") %>
+<%= radio_button_tag(:taf, "No") %>
+<%= label_tag(:taf_no, "No") %>
+<%= text_field_tag(:tafd,"" , :placeholder =>"Farmaci/dosaggi/tempi") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Sierologia CMV</label>
+                            </td>
+
+                            <td>
+<%= text_field_tag(:smcvp, "", :placeholder =>"paziente") %>
+<%= text_field_tag(:smcvd,"", :placeholder => "donatore (se c'è stato un trapianto)") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Infezione da CMV</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:icmv, "Si") %>
+<%= label_tag(:icmv_si, "Si") %>
+<%= radio_button_tag(:icmv, "No") %>
+<%= label_tag(:icmv_no, "No") %>
+<%= text_field_tag(:icmvd, "", :placeholder =>"data") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Infezione da altri virus respiratori</label>
+                            </td>
+     <td>
+<%= radio_button_tag(:ivr, "Adenovirus") %>
+<%= label_tag(:ivr_ade, "Adenovirus") %>
+<%= radio_button_tag(:ivr, "Coronavirus") %>
+<%= label_tag(:ivr_cor, "Coronavirus") %>
+<%= radio_button_tag(:ivr, "Eterovirus") %>
+<%= label_tag(:ivr_ete, "Eterovirus") %>
+<%= radio_button_tag(:ivr, "Metapneumovirus") %>
+<%= label_tag(:ivr_met, "Metapneumovirus") %>
+<%= radio_button_tag(:ivr, "H1N1") %>
+<%= label_tag(:ivr_hn, "H1N1") %>
+<%= radio_button_tag(:ivr, "Influenza (stagionale)") %>
+<%= label_tag(:ivr_inf, "Influenza (stagionale)") %>
+<%= radio_button_tag(:ivr, "RSV") %>
+<%= label_tag(:ivr_rsv, "RSV") %>
+<%= radio_button_tag(:ivr, "Rinovirus") %>
+<%= label_tag(:ivr_rin, "Rinovirus") %>
+<%= radio_button_tag(:ivr, "altro") %>
+<%= label_tag(:ivr_al, "Altro") %>
+<%= text_field_tag(:ivra,"", :placeholder => "se \"altro\" specificare") %>
+
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Profilassi virale</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:pra, "Si") %>
+<%= label_tag(:pra_si, "Si") %>
+<%= radio_button_tag(:pra, "No") %>
+<%= label_tag(:pra_no, "No") %>
+<%= text_field_tag(:prad,"" , :placeholder =>"Farmaci/dosaggi/tempi") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Terapia antivirale</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:tra, "Si") %>
+<%= label_tag(:tra_si, "Si") %>
+<%= radio_button_tag(:tra, "No") %>
+<%= label_tag(:trano_no, "No") %>
+<%= text_field_tag(:trad,"", :placeholder =>"Farmaci/dosaggi/tempi") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Infezione batterica</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:infba, "Si") %>
+<%= label_tag(:infba_si, "Si") %>
+<%= radio_button_tag(:infba, "No") %>
+<%= label_tag(:infba_no, "No") %>
+<%= text_field_tag(:infbad, "", :placeholder =>"data") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Identificazione della specie batterica</label>
+                            </td>
+
+                            <td>
+<%= text_field_tag(:idsb, "") %>
+
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Profilassi antibatterica</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:prab, "Si") %>
+<%= label_tag(:prab_si, "Si") %>
+<%= radio_button_tag(:prab, "No") %>
+<%= label_tag(:prab_no, "No") %>
+<%= text_field_tag(:prabd, "", :placeholder =>"Farmaci/dosaggi/tempi") %>
+                            </td>
+                        </tr>
+<tr>
+                            <td>
+                                <label>
+                                    Terapia antibatterica</label>
+                            </td>
+                            <td>
+
+
+<%= radio_button_tag(:trab, "Si") %>
+<%= label_tag(:trab_si, "Si") %>
+<%= radio_button_tag(:trab, "No") %>
+<%= label_tag(:trab_no, "No") %>
+<%= text_field_tag(:trabd,"", :placeholder => "Farmaci/dosaggi/tempi") %>
+                            </td>
+                        </tr>
+                       <!--
+			 <tr>
+                            <td>
+                                <label>
+                                    Success</label>
+                            </td>
+                            <td>
+                                <input type="text" class="success" />
+                                <span class="success">Email address verfified.</span>
+                            </td>
+                        </tr>
+-->
+<!--                        <tr>
+                            <td>
+                                <label>
+                                    Warning</label>
+                            </td>
+                            <td>
+                                <input type="text" class="warning" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label class="error">
+                                    Label Error</label>
+                            </td>
+                            <td>
+                                <input type="text" />
+                            </td>
+                        </tr>
+-->   
+              
+<!--
+                        <tr>
+                            <td>
+                                <label>
+                                    Progress Bar</label>
+                            </td>
+                            <td>
+                                <div id="progress-bar">
+                                </div>
+                            </td>
+                        </tr>
+-->  
+
+                        <tr><td>
+                                <label>
+                                    Upload </label>
+                            </td>
+			<td>
+
+			 <%= file_field_tag "file", :accept => 'text/html' %>
+			   <%= submit_tag %>
+			<% end %>
+
+			  </div>
+			</td>
+                        </tr>
+      
+                    </table>
+
+                </div>
+            </div>
+        </div>
+        <div class="clear">
+        </div>
+    </div>
+    <div class="clear">
+    </div>
+    <div id="site_info">
+        <p>
+            Copyright <a href="#">BlueWhale Admin</a>. All Rights Reserved.
+        </p>
+    </div>
+</body>
+</html>
+<% else %>
+<div class="message error">
+<h1> 
+<%= link_to "log in", root_path %>
+ non riuscito.</h1>
+</div>
+<% end %>

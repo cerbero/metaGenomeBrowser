@@ -1,0 +1,21 @@
+<div class="message warning">
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Dataset name:</strong>
+  <%= @dataset.dataset_name %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @dataset.description %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @dataset.user %>
+</p>
+
+<%= link_to 'Edit', edit_dataset_path(@dataset) %> |
+<%= link_to 'Back', datasets_path %>
+</div>

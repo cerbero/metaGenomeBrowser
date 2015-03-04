@@ -1,0 +1,14 @@
+<% if logged_in? %>
+<h1>New Dataset</h1>
+<div class="message warning">
+<%= render 'form' %>
+
+<%= link_to 'Back', dashboard_path %>
+</div>
+<% else %>
+<div class="message error">
+<h1> 
+<%= link_to "log in", root_path %>
+ non riuscito.</h1>
+</div>
+<% end %>

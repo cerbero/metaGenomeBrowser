@@ -1,0 +1,1387 @@
+{
+ "name": "genus",
+ "children": [
+
+  {"name": "Sphingomonas", "size": 6311}
+   ,
+{"name": "Streptococcus", "size": 13494}
+   ,
+{"name": "Unknown Firmicutes", "size": 2091}
+   ,
+{"name": "Unknown Alphaproteobacteria", "size": 2940}
+   ,
+{"name": "Pseudomonas", "size": 6617}
+   ,
+{"name": "Unknown Bacteria", "size": 325068}
+   ,
+{"name": "Unknown Gammaproteobacteria", "size": 14601}
+   ,
+{"name": "Unknown Beijerinckiaceae", "size": 1}
+   ,
+{"name": "Unknown Betaproteobacteria", "size": 15279}
+   ,
+{"name": "Unknown Epsilonproteobacteria", "size": 14}
+   ,
+{"name": "Unknown Roseateles", "size": 17}
+   ,
+{"name": "Coriobacteriaceae", "size": 3}
+   ,
+{"name": "Bifidobacterium", "size": 2}
+   ,
+{"name": "Flavobacterium", "size": 530}
+   ,
+{"name": "Unknown Caulobacteraceae", "size": 8}
+   ,
+{"name": "Unknown Enterobacteriaceae", "size": 9342}
+   ,
+{"name": "Burkholderia", "size": 3609}
+   ,
+{"name": "Phaseolibacter", "size": 65}
+   ,
+{"name": "Brevundimonas", "size": 223}
+   ,
+{"name": "Delftia", "size": 142}
+   ,
+{"name": "Unknown Mitsuaria", "size": 1}
+   ,
+{"name": "Solobacterium", "size": 1}
+   ,
+{"name": "Pantoea", "size": 412}
+   ,
+{"name": "Mogibacterium", "size": 2}
+   ,
+{"name": "Chryseobacterium", "size": 952}
+   ,
+{"name": "Pseudoalteromonas", "size": 50}
+   ,
+{"name": "Thiothrix", "size": 8}
+   ,
+{"name": "Bacillus", "size": 533}
+   ,
+{"name": "Streptomycetaceae", "size": 62}
+   ,
+{"name": "Micrococcaceae", "size": 435}
+   ,
+{"name": "Variovorax", "size": 278}
+   ,
+{"name": "Xanthomonas", "size": 181}
+   ,
+{"name": "Saprospira", "size": 2}
+   ,
+{"name": "Flexibacter", "size": 38}
+   ,
+{"name": "Algicola", "size": 10}
+   ,
+{"name": "Buchnera", "size": 145}
+   ,
+{"name": "Comamonas", "size": 127}
+   ,
+{"name": "Bradyrhizobium", "size": 698}
+   ,
+{"name": "Nocardiaceae", "size": 462}
+   ,
+{"name": "Cycloclasticus", "size": 3}
+   ,
+{"name": "Cytophaga", "size": 1744}
+   ,
+{"name": "Unknown Bacteroidetes", "size": 611}
+   ,
+{"name": "Aquaspirillum", "size": 8}
+   ,
+{"name": "Acidovorax", "size": 22}
+   ,
+{"name": "Achromobacter", "size": 362}
+   ,
+{"name": "Marivirga", "size": 2}
+   ,
+{"name": "Rhizobium/Agrobacterium group", "size": 1815}
+   ,
+{"name": "Bergeriella", "size": 1}
+   ,
+{"name": "Rhodopseudomonas", "size": 101}
+   ,
+{"name": "Unknown Bacteroidaceae", "size": 2}
+   ,
+{"name": "Unknown Clostridiaceae", "size": 6}
+   ,
+{"name": "Unknown Eubacteriaceae", "size": 1}
+   ,
+{"name": "Unknown Actinobacteridae", "size": 12}
+   ,
+{"name": "Unknown Deltaproteobacteria", "size": 522}
+   ,
+{"name": "Derxia", "size": 590}
+   ,
+{"name": "Alicyclobacillus", "size": 2}
+   ,
+{"name": "Frateuria", "size": 2}
+   ,
+{"name": "Janthinobacterium", "size": 4}
+   ,
+{"name": "Paracoccus", "size": 201}
+   ,
+{"name": "Sphingobacterium", "size": 1835}
+   ,
+{"name": "Sphingobium", "size": 29}
+   ,
+{"name": "Asaia", "size": 4185}
+   ,
+{"name": "Cupriavidus", "size": 8089}
+   ,
+{"name": "Candidatus Isobeggiatoa", "size": 1}
+   ,
+{"name": "Herbaspirillum", "size": 721}
+   ,
+{"name": "Blastochloris", "size": 4}
+   ,
+{"name": "Desulfomicrobium", "size": 1}
+   ,
+{"name": "Brevibacillus", "size": 1}
+   ,
+{"name": "Azospirillum", "size": 9}
+   ,
+{"name": "Unknown Methylobacteriaceae", "size": 111}
+   ,
+{"name": "Klebsiella", "size": 138}
+   ,
+{"name": "Ralstonia", "size": 422}
+   ,
+{"name": "Beijerinckia", "size": 2}
+   ,
+{"name": "Thalassomonas", "size": 1}
+   ,
+{"name": "Unknown Rhodocyclaceae", "size": 154}
+   ,
+{"name": "Azotobacter", "size": 7}
+   ,
+{"name": "Azomonas", "size": 11}
+   ,
+{"name": "Gluconobacter", "size": 179}
+   ,
+{"name": "Unknown Phormidium", "size": 1}
+   ,
+{"name": "Gracilibacillus", "size": 2}
+   ,
+{"name": "Holophaga", "size": 1}
+   ,
+{"name": "Beggiatoa", "size": 9}
+   ,
+{"name": "Parvibaculum", "size": 2}
+   ,
+{"name": "Unknown Anaplasmataceae", "size": 16}
+   ,
+{"name": "Unknown Bacteroidales", "size": 16}
+   ,
+{"name": "Unknown Clostridiales", "size": 28}
+   ,
+{"name": "Unknown candidate division TG3", "size": 1}
+   ,
+{"name": "Castellaniella", "size": 1}
+   ,
+{"name": "Acinetobacter", "size": 1790}
+   ,
+{"name": "Selenomonas", "size": 3063}
+   ,
+{"name": "Unknown Elusimicrobia", "size": 6}
+   ,
+{"name": "Sediminicola", "size": 1}
+   ,
+{"name": "Unknown Actinomycetales", "size": 17}
+   ,
+{"name": "Unknown Prevotellaceae", "size": 59}
+   ,
+{"name": "Unknown Mollicutes", "size": 5}
+   ,
+{"name": "Methylobacterium", "size": 41651}
+   ,
+{"name": "Unknown Sphingomonadaceae", "size": 2379}
+   ,
+{"name": "Unknown Actinobacteria", "size": 113}
+   ,
+{"name": "Rickettsieae", "size": 9}
+   ,
+{"name": "Microbacteriaceae", "size": 43}
+   ,
+{"name": "Alcaligenes", "size": 173}
+   ,
+{"name": "Unknown Streptococcaceae", "size": 2}
+   ,
+{"name": "Candidatus Ishikawaella", "size": 3}
+   ,
+{"name": "Photobacterium", "size": 34}
+   ,
+{"name": "Unknown Treponema", "size": 106}
+   ,
+{"name": "Dyadobacter", "size": 650}
+   ,
+{"name": "Sulfurivirga", "size": 1}
+   ,
+{"name": "Unknown Myxococcales", "size": 5}
+   ,
+{"name": "Pigmentiphaga", "size": 1}
+   ,
+{"name": "Luteimonas", "size": 145}
+   ,
+{"name": "Mesorhizobium", "size": 189}
+   ,
+{"name": "Bartonella", "size": 63}
+   ,
+{"name": "Unknown Xanthomonadaceae", "size": 643}
+   ,
+{"name": "Hymenobacter", "size": 624}
+   ,
+{"name": "Unknown Planctomycetaceae", "size": 290}
+   ,
+{"name": "Olivibacter", "size": 1}
+   ,
+{"name": "Sphingoterrabacterium", "size": 1}
+   ,
+{"name": "Barnesiella", "size": 1}
+   ,
+{"name": "Unknown Alkalimonas", "size": 17}
+   ,
+{"name": "Escherichia", "size": 3814}
+   ,
+{"name": "Bordetella", "size": 503}
+   ,
+{"name": "Tenacibaculum", "size": 3}
+   ,
+{"name": "Sphingopyxis", "size": 103}
+   ,
+{"name": "Unknown Flavobacteriaceae", "size": 114}
+   ,
+{"name": "Desulfitobacterium", "size": 1}
+   ,
+{"name": "Unknown Mycoplasma", "size": 7}
+   ,
+{"name": "Unknown Verrucomicrobia", "size": 1}
+   ,
+{"name": "Sutterella", "size": 1}
+   ,
+{"name": "Methylohalobius", "size": 1}
+   ,
+{"name": "Acanthopleuribacter", "size": 1}
+   ,
+{"name": "Marinobacter", "size": 4}
+   ,
+{"name": "Acetobacter", "size": 3162}
+   ,
+{"name": "Swaminathania", "size": 751}
+   ,
+{"name": "Unknown Thiomonas", "size": 23}
+   ,
+{"name": "Unknown Amphritea", "size": 3}
+   ,
+{"name": "Lactobacillus", "size": 154}
+   ,
+{"name": "Clostridium", "size": 9}
+   ,
+{"name": "Unknown Rhodobacterales", "size": 5}
+   ,
+{"name": "Methylomonas", "size": 7}
+   ,
+{"name": "Unknown Desulfobulbaceae", "size": 1}
+   ,
+{"name": "Roseomonas", "size": 10}
+   ,
+{"name": "Xanthobacillum", "size": 1}
+   ,
+{"name": "Paenibacillus", "size": 32}
+   ,
+{"name": "Unknown Bacillales", "size": 1}
+   ,
+{"name": "Raoultella", "size": 55}
+   ,
+{"name": "Psychromonas", "size": 4}
+   ,
+{"name": "Limnobacter", "size": 2}
+   ,
+{"name": "Kozakia", "size": 14}
+   ,
+{"name": "Candidatus Rosenkranzia", "size": 33}
+   ,
+{"name": "Unknown Rhodospirillaceae", "size": 14}
+   ,
+{"name": "Kineosporiaceae", "size": 5}
+   ,
+{"name": "Rhodovastum", "size": 5}
+   ,
+{"name": "Alcanivorax", "size": 28}
+   ,
+{"name": "Unknown Methylococcaceae", "size": 11}
+   ,
+{"name": "Vibrio", "size": 56}
+   ,
+{"name": "Thioprofundum", "size": 1}
+   ,
+{"name": "Propionibacteriaceae", "size": 2}
+   ,
+{"name": "Gordoniaceae", "size": 27}
+   ,
+{"name": "Unknown Chromatiaceae", "size": 6}
+   ,
+{"name": "Candidatus Puchtella", "size": 23}
+   ,
+{"name": "Prevotella", "size": 5854}
+   ,
+{"name": "Actinomycetaceae", "size": 767}
+   ,
+{"name": "Massilia", "size": 118}
+   ,
+{"name": "Unknown sulfur-oxidizing symbionts", "size": 28}
+   ,
+{"name": "Erwinia", "size": 567}
+   ,
+{"name": "Candidatus Curculioniphilus", "size": 22}
+   ,
+{"name": "Neokomagataea", "size": 7}
+   ,
+{"name": "Pseudonocardiaceae", "size": 798}
+   ,
+{"name": "Empedobacter", "size": 599}
+   ,
+{"name": "Oceanisphaera", "size": 1}
+   ,
+{"name": "Pullulanibacillus", "size": 1}
+   ,
+{"name": "Dermacoccaceae", "size": 2}
+   ,
+{"name": "Beutenbergiaceae", "size": 3}
+   ,
+{"name": "Unknown Rhodobacteraceae", "size": 51}
+   ,
+{"name": "Eikenella", "size": 255}
+   ,
+{"name": "Sinorhizobium/Ensifer group", "size": 850}
+   ,
+{"name": "Hylemonella", "size": 11}
+   ,
+{"name": "Unknown Sphingobacteriales", "size": 374}
+   ,
+{"name": "Candidatus Benitsuchiphilus", "size": 1}
+   ,
+{"name": "Sporolactobacillus", "size": 11}
+   ,
+{"name": "Pediococcus", "size": 2}
+   ,
+{"name": "Acidiphilium", "size": 17}
+   ,
+{"name": "Micromonosporaceae", "size": 30}
+   ,
+{"name": "Candidatus Schneideria", "size": 2}
+   ,
+{"name": "Unknown Leptotrichia", "size": 3320}
+   ,
+{"name": "Aurantimonas", "size": 2}
+   ,
+{"name": "Halioglobus", "size": 1}
+   ,
+{"name": "Unknown Cyanobacteria", "size": 5}
+   ,
+{"name": "Rhodobacter", "size": 117}
+   ,
+{"name": "Salinivibrio", "size": 26}
+   ,
+{"name": "Psychrobacter", "size": 8}
+   ,
+{"name": "Parasutterella", "size": 1}
+   ,
+{"name": "Emticicia", "size": 8}
+   ,
+{"name": "Capnocytophaga", "size": 116}
+   ,
+{"name": "Enterobacter", "size": 25232}
+   ,
+{"name": "Unknown Methylocystaceae", "size": 14}
+   ,
+{"name": "Gallionella", "size": 36}
+   ,
+{"name": "Ochrobactrum", "size": 37056}
+   ,
+{"name": "Pseudaminobacter", "size": 4}
+   ,
+{"name": "Unknown Oceanospirillum", "size": 7}
+   ,
+{"name": "Neoasaia", "size": 91}
+   ,
+{"name": "Sediminitomix", "size": 1}
+   ,
+{"name": "Paraferrimonas", "size": 1}
+   ,
+{"name": "Unknown Piscinibacter", "size": 1}
+   ,
+{"name": "Nubsella", "size": 4}
+   ,
+{"name": "Ameyamaea", "size": 7}
+   ,
+{"name": "Poriferibacter", "size": 1}
+   ,
+{"name": "Citrobacter", "size": 952}
+   ,
+{"name": "Helicobacter", "size": 2}
+   ,
+{"name": "Salmonella", "size": 1076}
+   ,
+{"name": "Pedobacter", "size": 37}
+   ,
+{"name": "Bacteroides", "size": 221}
+   ,
+{"name": "Brucella", "size": 447}
+   ,
+{"name": "Neisseria", "size": 199}
+   ,
+{"name": "Eubacterium", "size": 1460}
+   ,
+{"name": "Alloprevotella", "size": 213}
+   ,
+{"name": "Johnsonella", "size": 6}
+   ,
+{"name": "Veillonella", "size": 52}
+   ,
+{"name": "Unknown Staphylococcus", "size": 156}
+   ,
+{"name": "Wolbachieae", "size": 176050}
+   ,
+{"name": "Cellulophaga", "size": 6}
+   ,
+{"name": "Moraxella", "size": 156}
+   ,
+{"name": "Shewanella", "size": 31}
+   ,
+{"name": "Aeromonas", "size": 28}
+   ,
+{"name": "Candidatus Endobugula", "size": 1}
+   ,
+{"name": "Kluyvera", "size": 12}
+   ,
+{"name": "Providencia", "size": 1}
+   ,
+{"name": "Azovibrio", "size": 4}
+   ,
+{"name": "Propionivibrio", "size": 103}
+   ,
+{"name": "Thiobacillus", "size": 2}
+   ,
+{"name": "Unknown Armatimonadetes", "size": 6}
+   ,
+{"name": "Methylarcula", "size": 1}
+   ,
+{"name": "Sulfobacillus", "size": 3}
+   ,
+{"name": "Unknown Nitrosomonadaceae", "size": 5}
+   ,
+{"name": "Flexithrix", "size": 1}
+   ,
+{"name": "Desulfovibrio", "size": 7}
+   ,
+{"name": "Mycobacteriaceae", "size": 55}
+   ,
+{"name": "Cellulomonadaceae", "size": 2}
+   ,
+{"name": "Unknown Epulopiscium", "size": 1}
+   ,
+{"name": "Unknown Holosporaceae", "size": 20}
+   ,
+{"name": "Hyphomonas", "size": 2}
+   ,
+{"name": "Bdellovibrio", "size": 7}
+   ,
+{"name": "Unknown Parachlamydiaceae", "size": 1}
+   ,
+{"name": "Stenotrophomonas", "size": 9127}
+   ,
+{"name": "Desulfofaba", "size": 2}
+   ,
+{"name": "Thauera", "size": 3}
+   ,
+{"name": "Thermohalobacter", "size": 1}
+   ,
+{"name": "Geobacillus", "size": 129}
+   ,
+{"name": "Unknown Prochlorococcus", "size": 1}
+   ,
+{"name": "Unknown candidate division SR1", "size": 7}
+   ,
+{"name": "Unknown Comamonadaceae", "size": 47}
+   ,
+{"name": "Acidomonas", "size": 22}
+   ,
+{"name": "unclassified Acetobacteraceae", "size": 235}
+   ,
+{"name": "Gluconacetobacter", "size": 352}
+   ,
+{"name": "Achromatium", "size": 8}
+   ,
+{"name": "Unknown Pseudomonadales", "size": 134}
+   ,
+{"name": "Orenia", "size": 1}
+   ,
+{"name": "Xylella", "size": 69}
+   ,
+{"name": "Roseobacter", "size": 6}
+   ,
+{"name": "Halomonas", "size": 115}
+   ,
+{"name": "Aequorivita", "size": 4}
+   ,
+{"name": "Corynebacteriaceae", "size": 10}
+   ,
+{"name": "Unknown Tepidimonas", "size": 5}
+   ,
+{"name": "Defluviicoccus", "size": 1}
+   ,
+{"name": "Chitinophaga", "size": 1}
+   ,
+{"name": "Unknown Moraxellaceae", "size": 7}
+   ,
+{"name": "Elizabethkingia", "size": 1432370}
+   ,
+{"name": "Unknown Candidatus Carsonella", "size": 22}
+   ,
+{"name": "Actinobacillus", "size": 34}
+   ,
+{"name": "Unknown Pasteurellaceae", "size": 57}
+   ,
+{"name": "Pasteurella", "size": 5}
+   ,
+{"name": "Rahnella", "size": 212}
+   ,
+{"name": "Alteromonas", "size": 2}
+   ,
+{"name": "Desulforegula", "size": 20}
+   ,
+{"name": "Pandoraea", "size": 73}
+   ,
+{"name": "Acidocella", "size": 30}
+   ,
+{"name": "aphid secondary symbionts", "size": 128}
+   ,
+{"name": "Nitrosomonas", "size": 25}
+   ,
+{"name": "Unknown Marinospirillum", "size": 1}
+   ,
+{"name": "Xenophilus", "size": 3}
+   ,
+{"name": "Serratia", "size": 55406}
+   ,
+{"name": "Thioalkalivibrio", "size": 23}
+   ,
+{"name": "Alysiella", "size": 11}
+   ,
+{"name": "Enterococcus", "size": 10}
+   ,
+{"name": "Unknown Thermodesulfobacterium", "size": 1}
+   ,
+{"name": "Unknown Chlamydiales", "size": 2197}
+   ,
+{"name": "Porphyromonas", "size": 407}
+   ,
+{"name": "Dickeya", "size": 346}
+   ,
+{"name": "Acidisphaera", "size": 4}
+   ,
+{"name": "Chromatium", "size": 1}
+   ,
+{"name": "Unknown Leptothrix", "size": 7}
+   ,
+{"name": "Catonella", "size": 205}
+   ,
+{"name": "Nitrosospira", "size": 14}
+   ,
+{"name": "Zymobacter group", "size": 1}
+   ,
+{"name": "Unknown Cytophagaceae", "size": 26090}
+   ,
+{"name": "Unknown Acetobacteraceae", "size": 143}
+   ,
+{"name": "Ehrlichia", "size": 65}
+   ,
+{"name": "Unknown Proteobacteria", "size": 2054}
+   ,
+{"name": "Unknown Rhizobiales", "size": 83}
+   ,
+{"name": "Vagococcus", "size": 21}
+   ,
+{"name": "Unknown Candidatus Baumannia", "size": 56}
+   ,
+{"name": "Rubrobacteraceae", "size": 1}
+   ,
+{"name": "Unknown Oxalobacteraceae", "size": 52}
+   ,
+{"name": "Devosia", "size": 5}
+   ,
+{"name": "Megasphaera", "size": 4}
+   ,
+{"name": "Unknown Candidatus Tremblaya", "size": 309}
+   ,
+{"name": "Unknown Lachnospiraceae", "size": 22}
+   ,
+{"name": "Avibacterium", "size": 5}
+   ,
+{"name": "Unknown Aquabacterium", "size": 6}
+   ,
+{"name": "Moritella", "size": 2}
+   ,
+{"name": "Polaribacter", "size": 1}
+   ,
+{"name": "Unknown Alteromonadaceae", "size": 1}
+   ,
+{"name": "Shigella", "size": 1264}
+   ,
+{"name": "Stomatobaculum", "size": 1}
+   ,
+{"name": "Nevskia", "size": 123}
+   ,
+{"name": "Unknown Bradyrhizobiaceae", "size": 429}
+   ,
+{"name": "Lamprocystis", "size": 1}
+   ,
+{"name": "Unknown Clostridiales Family XIII. Incertae Sedis", "size": 393}
+   ,
+{"name": "Unknown Acidobacteriaceae", "size": 6}
+   ,
+{"name": "Thiorhodovibrio", "size": 5}
+   ,
+{"name": "Pluralibacter", "size": 11}
+   ,
+{"name": "Yersinia", "size": 104}
+   ,
+{"name": "Dolosicoccus", "size": 1}
+   ,
+{"name": "Brenneria", "size": 406}
+   ,
+{"name": "Thiocystis", "size": 1}
+   ,
+{"name": "Caulobacter", "size": 8}
+   ,
+{"name": "Planctomyces", "size": 2}
+   ,
+{"name": "Buttiauxella", "size": 46}
+   ,
+{"name": "Leminorella", "size": 54}
+   ,
+{"name": "Pragia", "size": 136}
+   ,
+{"name": "Desulfobacterium", "size": 3}
+   ,
+{"name": "Thiomicrospira", "size": 1}
+   ,
+{"name": "ant endosymbionts", "size": 63}
+   ,
+{"name": "Unknown Syntrophorhabdaceae", "size": 1}
+   ,
+{"name": "Gemella", "size": 317}
+   ,
+{"name": "Methylocapsa", "size": 1}
+   ,
+{"name": "Bacteriovorax", "size": 143}
+   ,
+{"name": "Oleiphilus", "size": 2}
+   ,
+{"name": "Nitrosococcus", "size": 26}
+   ,
+{"name": "Roseospira", "size": 1}
+   ,
+{"name": "Unknown Chloroflexaceae", "size": 1}
+   ,
+{"name": "Collimonas", "size": 46}
+   ,
+{"name": "Brevibacteriaceae", "size": 383}
+   ,
+{"name": "Desulfotalea", "size": 1}
+   ,
+{"name": "Halorhodospira", "size": 1}
+   ,
+{"name": "Unknown Caldithrix", "size": 1}
+   ,
+{"name": "Unknown Lentisphaerae", "size": 2}
+   ,
+{"name": "Azoarcus", "size": 3}
+   ,
+{"name": "Acidiferrobacter", "size": 1}
+   ,
+{"name": "Desulfosporosinus", "size": 1}
+   ,
+{"name": "Sulfitobacter", "size": 33}
+   ,
+{"name": "Unknown Reinekea", "size": 6}
+   ,
+{"name": "Unknown Fusobacteria", "size": 3}
+   ,
+{"name": "Helcococcus", "size": 5}
+   ,
+{"name": "Uruburuella", "size": 1}
+   ,
+{"name": "Arcobacter", "size": 1}
+   ,
+{"name": "Arcicella", "size": 70}
+   ,
+{"name": "Methylocystis", "size": 5}
+   ,
+{"name": "Hafnia", "size": 10}
+   ,
+{"name": "Methylocaldum", "size": 5}
+   ,
+{"name": "Unknown Rubrivivax", "size": 2}
+   ,
+{"name": "Williamsiaceae", "size": 21}
+   ,
+{"name": "Paracraurococcus", "size": 1}
+   ,
+{"name": "Larkinella", "size": 81}
+   ,
+{"name": "Xenorhabdus", "size": 1138}
+   ,
+{"name": "Herminiimonas", "size": 25}
+   ,
+{"name": "Phyllobacterium", "size": 1266}
+   ,
+{"name": "Candidatus Phlomobacter", "size": 1}
+   ,
+{"name": "Pelomonas", "size": 3}
+   ,
+{"name": "Rhodovulum", "size": 28}
+   ,
+{"name": "Unknown Calothrix", "size": 1}
+   ,
+{"name": "Unknown Flavobacteriia", "size": 1}
+   ,
+{"name": "Caldimonas", "size": 2}
+   ,
+{"name": "Paludibacterium", "size": 7}
+   ,
+{"name": "Vitellibacter", "size": 3}
+   ,
+{"name": "Defluviimonas", "size": 1}
+   ,
+{"name": "Procabacter", "size": 1}
+   ,
+{"name": "Lautropia", "size": 195}
+   ,
+{"name": "Campylobacter", "size": 21}
+   ,
+{"name": "Unknown Fusobacterium", "size": 4}
+   ,
+{"name": "Tannerella", "size": 814}
+   ,
+{"name": "Bergeyella", "size": 672}
+   ,
+{"name": "Haemophilus", "size": 168}
+   ,
+{"name": "Granulicatella", "size": 26}
+   ,
+{"name": "Unknown Veillonellaceae", "size": 4}
+   ,
+{"name": "Thiohalocapsa", "size": 37}
+   ,
+{"name": "Unknown Sulfurihydrogenibium", "size": 4}
+   ,
+{"name": "Halochromatium", "size": 14}
+   ,
+{"name": "Rhodospirillum", "size": 4}
+   ,
+{"name": "Unknown Proteinimicrobium", "size": 2087}
+   ,
+{"name": "Kiloniella", "size": 2}
+   ,
+{"name": "Biostraticola", "size": 18}
+   ,
+{"name": "Unknown Rivibacter", "size": 1}
+   ,
+{"name": "Ancylobacter", "size": 3}
+   ,
+{"name": "Nocardioidaceae", "size": 203}
+   ,
+{"name": "Candidatus Glomeribacter", "size": 1}
+   ,
+{"name": "Gemmata", "size": 207}
+   ,
+{"name": "Ruegeria", "size": 1}
+   ,
+{"name": "Unknown Chloroflexi", "size": 81}
+   ,
+{"name": "Thermomonas", "size": 2}
+   ,
+{"name": "Pelobacter", "size": 3}
+   ,
+{"name": "Unknown Burkholderiaceae", "size": 1400}
+   ,
+{"name": "Unknown Acidobacteria", "size": 13}
+   ,
+{"name": "Kaistobacter", "size": 8}
+   ,
+{"name": "Unknown Phyllobacteriaceae", "size": 27}
+   ,
+{"name": "Unknown Chromatiales", "size": 461}
+   ,
+{"name": "Unknown Ectothiorhodospiraceae", "size": 8}
+   ,
+{"name": "Ectothiorhodospira", "size": 1}
+   ,
+{"name": "Lutimonas", "size": 2}
+   ,
+{"name": "Chelatococcus", "size": 173}
+   ,
+{"name": "Unknown Alcanivoracaceae", "size": 2}
+   ,
+{"name": "Unknown Hyphomonadaceae", "size": 3}
+   ,
+{"name": "Thiorhodococcus", "size": 1}
+   ,
+{"name": "Sodalis", "size": 526}
+   ,
+{"name": "Tetragenococcus", "size": 188}
+   ,
+{"name": "Pseudogulbenkiania", "size": 5}
+   ,
+{"name": "Melissococcus", "size": 4}
+   ,
+{"name": "Morganella", "size": 3}
+   ,
+{"name": "Oxalicibacterium", "size": 1}
+   ,
+{"name": "Dechloromonas", "size": 3}
+   ,
+{"name": "Unknown Candidatus Nardonella", "size": 41}
+   ,
+{"name": "Methylophaga", "size": 9}
+   ,
+{"name": "Candidatus Neoehrlichia", "size": 27}
+   ,
+{"name": "Unknown Bermanella", "size": 4}
+   ,
+{"name": "Hydrogenophaga", "size": 3}
+   ,
+{"name": "Unknown Fructobacillus", "size": 282}
+   ,
+{"name": "Unknown Waddlia", "size": 2}
+   ,
+{"name": "Aestuariibacter", "size": 2}
+   ,
+{"name": "Volucribacter", "size": 2}
+   ,
+{"name": "Unknown Nitrospira", "size": 3}
+   ,
+{"name": "Promicromonosporaceae", "size": 4}
+   ,
+{"name": "Photorhabdus", "size": 25}
+   ,
+{"name": "Unknown Micrococcineae", "size": 1}
+   ,
+{"name": "Unknown Turneriella", "size": 577}
+   ,
+{"name": "Methylobacillus", "size": 7}
+   ,
+{"name": "Alkalibacter", "size": 1}
+   ,
+{"name": "Unknown Reichenowia", "size": 50}
+   ,
+{"name": "unclassified Bacillaceae", "size": 1}
+   ,
+{"name": "Peptococcus", "size": 3}
+   ,
+{"name": "Aggregatibacter", "size": 1}
+   ,
+{"name": "Hydrocarboniphaga", "size": 6}
+   ,
+{"name": "Proteus", "size": 12}
+   ,
+{"name": "Duganella", "size": 3}
+   ,
+{"name": "Intrasporangiaceae", "size": 10}
+   ,
+{"name": "Methylophilus", "size": 1}
+   ,
+{"name": "Sporosarcina", "size": 6}
+   ,
+{"name": "Hyphomicrobium", "size": 8}
+   ,
+{"name": "Unknown Poribacteria", "size": 1}
+   ,
+{"name": "Marinococcus", "size": 14}
+   ,
+{"name": "Nitrobacter", "size": 3}
+   ,
+{"name": "Brochothrix", "size": 14}
+   ,
+{"name": "Kosakonia", "size": 41}
+   ,
+{"name": "Porphyrobacter", "size": 4}
+   ,
+{"name": "Afipia", "size": 7}
+   ,
+{"name": "Muricauda", "size": 2}
+   ,
+{"name": "Riemerella", "size": 2}
+   ,
+{"name": "Unknown Borrelia", "size": 1}
+   ,
+{"name": "Thioclava", "size": 195}
+   ,
+{"name": "Hahella", "size": 5}
+   ,
+{"name": "Gelria", "size": 1}
+   ,
+{"name": "Pusillimonas", "size": 15}
+   ,
+{"name": "Altererythrobacter", "size": 7}
+   ,
+{"name": "Pseudoxanthomonas", "size": 3}
+   ,
+{"name": "Acidithiobacillus", "size": 127}
+   ,
+{"name": "Thorsellia", "size": 2}
+   ,
+{"name": "Spirillum", "size": 2}
+   ,
+{"name": "Dialister", "size": 1}
+   ,
+{"name": "Unknown Gemmatimonadetes", "size": 10}
+   ,
+{"name": "Dokdonella", "size": 2}
+   ,
+{"name": "Wigglesworthia", "size": 66}
+   ,
+{"name": "Unknown Corynebacterineae", "size": 3}
+   ,
+{"name": "Acidothermaceae", "size": 2}
+   ,
+{"name": "Alkaliphilus", "size": 4}
+   ,
+{"name": "Cellvibrio", "size": 144}
+   ,
+{"name": "Elusimicrobium", "size": 3}
+   ,
+{"name": "Deinococcus", "size": 102}
+   ,
+{"name": "Tolumonas", "size": 4}
+   ,
+{"name": "Gardnerella", "size": 42}
+   ,
+{"name": "Sideroxydans", "size": 126}
+   ,
+{"name": "Candidatus Zinderia", "size": 7}
+   ,
+{"name": "Candidatus Moranella", "size": 11}
+   ,
+{"name": "Weeksella", "size": 1}
+   ,
+{"name": "Fluviicola", "size": 480}
+   ,
+{"name": "Carnobacterium", "size": 4}
+   ,
+{"name": "Unknown Polymorphum", "size": 1}
+   ,
+{"name": "Borrelia burgdorferi group", "size": 1}
+   ,
+{"name": "Acetobacterium", "size": 4}
+   ,
+{"name": "Aromatoleum", "size": 1}
+   ,
+{"name": "Gramella", "size": 8}
+   ,
+{"name": "Novosphingobium", "size": 459}
+   ,
+{"name": "Chromobacterium", "size": 18}
+   ,
+{"name": "Anaerococcus", "size": 4}
+   ,
+{"name": "Peptoniphilus", "size": 1}
+   ,
+{"name": "Finegoldia", "size": 1}
+   ,
+{"name": "Phaeospirillum", "size": 1}
+   ,
+{"name": "Rhodoferax", "size": 11}
+   ,
+{"name": "Cryptosporangiaceae", "size": 1}
+   ,
+{"name": "Rhodopila", "size": 1}
+   ,
+{"name": "Pseudorhodobacter", "size": 4}
+   ,
+{"name": "Ahrensia", "size": 1}
+   ,
+{"name": "Unknown Sphingomonadales", "size": 1}
+   ,
+{"name": "Xanthobacter", "size": 3}
+   ,
+{"name": "Unknown Vibrionaceae", "size": 5}
+   ,
+{"name": "Nonlabens", "size": 1}
+   ,
+{"name": "Unknown Candidatus Sulcia", "size": 4}
+   ,
+{"name": "Unknown Legionellaceae", "size": 1}
+   ,
+{"name": "Taylorella", "size": 1}
+   ,
+{"name": "Gracilibacter", "size": 3}
+   ,
+{"name": "Candidatus Contubernalis", "size": 1}
+   ,
+{"name": "Desulfotomaculum", "size": 1}
+   ,
+{"name": "Methylosinus", "size": 2}
+   ,
+{"name": "Luteibacter", "size": 4}
+   ,
+{"name": "Unknown Marinomonas", "size": 374}
+   ,
+{"name": "Pectobacterium", "size": 19}
+   ,
+{"name": "Dietziaceae", "size": 1}
+   ,
+{"name": "Unknown Burkholderiales", "size": 359}
+   ,
+{"name": "Cronobacter", "size": 157}
+   ,
+{"name": "Leeia", "size": 4}
+   ,
+{"name": "Crenothrix", "size": 2}
+   ,
+{"name": "Bosea", "size": 14}
+   ,
+{"name": "Unknown Candidatus Paenicardinium", "size": 1}
+   ,
+{"name": "Lysobacter", "size": 15}
+   ,
+{"name": "Arsenophonus", "size": 5}
+   ,
+{"name": "Nakamurellaceae", "size": 6}
+   ,
+{"name": "Verminephrobacter", "size": 325}
+   ,
+{"name": "Unknown candidate division GN09", "size": 1}
+   ,
+{"name": "Desulfobulbus", "size": 7}
+   ,
+{"name": "Aminobacter", "size": 136}
+   ,
+{"name": "Hansschlegelia", "size": 1}
+   ,
+{"name": "Unknown Candidatus Endowatersipora", "size": 1}
+   ,
+{"name": "Zhouia", "size": 2}
+   ,
+{"name": "Unknown Thiohalomonas", "size": 1}
+   ,
+{"name": "Unknown Rhizobiaceae", "size": 15}
+   ,
+{"name": "Thalassobius", "size": 3}
+   ,
+{"name": "Echinicola", "size": 6}
+   ,
+{"name": "Unknown Chlorobi", "size": 17}
+   ,
+{"name": "Unknown Microgenomates", "size": 1}
+   ,
+{"name": "Phytobacter", "size": 15}
+   ,
+{"name": "Erythrobacter", "size": 44}
+   ,
+{"name": "Unknown Flavobacteriales", "size": 4}
+   ,
+{"name": "Chlamydia", "size": 29}
+   ,
+{"name": "Roseisalinus", "size": 1}
+   ,
+{"name": "Unknown Spongiobacter", "size": 6}
+   ,
+{"name": "Kordiimonas", "size": 4}
+   ,
+{"name": "Unknown Geothermobacterium", "size": 1}
+   ,
+{"name": "Unknown Planctomycetales", "size": 6}
+   ,
+{"name": "Tatumella", "size": 5}
+   ,
+{"name": "Unknown Hyphomicrobiaceae", "size": 32}
+   ,
+{"name": "Unknown Bacillaceae", "size": 1}
+   ,
+{"name": "Unknown Brucellaceae", "size": 7749}
+   ,
+{"name": "Unknown Rhodobiaceae", "size": 1}
+   ,
+{"name": "Agarivorans", "size": 2}
+   ,
+{"name": "Coxiella", "size": 1}
+   ,
+{"name": "Oceanistipes", "size": 1}
+   ,
+{"name": "Virgibacillus", "size": 3}
+   ,
+{"name": "Azonexus", "size": 1}
+   ,
+{"name": "Jannaschia", "size": 2}
+   ,
+{"name": "Epilithonimonas", "size": 1}
+   ,
+{"name": "Thermomonosporaceae", "size": 1}
+   ,
+{"name": "Stenoxybacter", "size": 1}
+   ,
+{"name": "Magnetococcus", "size": 9}
+   ,
+{"name": "Edwardsiella", "size": 22}
+   ,
+{"name": "Reyranella", "size": 18}
+   ,
+{"name": "Granulibacter", "size": 36}
+   ,
+{"name": "Lelliottia", "size": 420}
+   ,
+{"name": "Desulfocella", "size": 1}
+   ,
+{"name": "Spirosoma", "size": 8}
+   ,
+{"name": "Unknown Acidobacteriales", "size": 10}
+   ,
+{"name": "Unknown Fibrobacteres", "size": 2}
+   ,
+{"name": "Candidatus Stammerula", "size": 44}
+   ,
+{"name": "Granulosicoccus", "size": 1}
+   ,
+{"name": "Unknown Sphingobacteriia", "size": 9}
+   ,
+{"name": "Idiomarina", "size": 380}
+   ,
+{"name": "Sanguibacteraceae", "size": 32}
+   ,
+{"name": "Ulvibacter", "size": 1}
+   ,
+{"name": "Unknown Rhodocyclales", "size": 25}
+   ,
+{"name": "Fulvimonas", "size": 1}
+   ,
+{"name": "Kaistia", "size": 1}
+   ,
+{"name": "Insolitispirillum", "size": 2}
+   ,
+{"name": "Rhodocista", "size": 3}
+   ,
+{"name": "Unknown Oscillatoriales", "size": 6}
+   ,
+{"name": "Unknown Rickettsiales", "size": 2}
+   ,
+{"name": "Ignatzschineria", "size": 1}
+   ,
+{"name": "Unknown Peptococcaceae", "size": 1}
+   ,
+{"name": "Mycoplana", "size": 48}
+   ,
+{"name": "Brachymonas", "size": 2}
+   ,
+{"name": "Geobacter", "size": 1}
+   ,
+{"name": "Oribacterium", "size": 2}
+   ,
+{"name": "Unknown Weissella", "size": 2}
+   ,
+{"name": "Unknown Candidatus Rhabdochlamydia", "size": 10}
+   ,
+{"name": "Stakelama", "size": 46}
+   ,
+{"name": "Thioalkalibacter", "size": 2}
+   ,
+{"name": "Zobellella", "size": 2}
+   ,
+{"name": "Stappia", "size": 11}
+   ,
+{"name": "Salegentibacter", "size": 5}
+   ,
+{"name": "Geoalkalibacter", "size": 2}
+   ,
+{"name": "Polyangiaceae", "size": 27}
+   ,
+{"name": "Methylobacter", "size": 1}
+   ,
+{"name": "Segetibacter", "size": 1}
+   ,
+{"name": "Legionella", "size": 5}
+   ,
+{"name": "Maritalea", "size": 2}
+   ,
+{"name": "Unknown Gallionellaceae", "size": 1}
+   ,
+{"name": "Unknown candidate division TM6", "size": 1}
+   ,
+{"name": "Desulfuromusa", "size": 1}
+   ,
+{"name": "Unknown Neisseriaceae", "size": 3}
+   ,
+{"name": "Unknown Aerococcaceae", "size": 2}
+   ,
+{"name": "Unknown Peptostreptococcaceae", "size": 2}
+   ,
+{"name": "Haematobacter", "size": 3}
+   ,
+{"name": "Chelonobacter", "size": 5}
+   ,
+{"name": "Facklamia", "size": 1}
+   ,
+{"name": "unclassified Rubrobacterineae", "size": 2}
+   ,
+{"name": "Unknown Acidobacterium", "size": 7}
+   ,
+{"name": "Gallibacterium", "size": 2}
+   ,
+{"name": "Colwellia", "size": 3}
+   ,
+{"name": "Trichococcus", "size": 1}
+   ,
+{"name": "Terribacillus", "size": 1}
+   ,
+{"name": "Phenylobacterium", "size": 8}
+   ,
+{"name": "Geodermatophilaceae", "size": 2}
+   ,
+{"name": "Unknown Alcaligenaceae", "size": 21}
+   ,
+{"name": "Unknown Ideonella", "size": 1}
+   ,
+{"name": "Aquitalea", "size": 4}
+   ,
+{"name": "Lonsdalea", "size": 1}
+   ,
+{"name": "Nitratireductor", "size": 2}
+   ,
+{"name": "Oceanicola", "size": 4}
+   ,
+{"name": "Methylorosula", "size": 10}
+   ,
+{"name": "Pseudoruegeria", "size": 3}
+   ,
+{"name": "Pseudozobellia", "size": 1}
+   ,
+{"name": "Pannonibacter", "size": 58}
+   ,
+{"name": "Oceanimonas", "size": 1}
+   ,
+{"name": "Marispirillum", "size": 2}
+   ,
+{"name": "Thermus", "size": 1}
+   ,
+{"name": "Chitinimonas", "size": 1}
+   ,
+{"name": "Unknown Rhodospirillales", "size": 1}
+   ,
+{"name": "Methylogaea", "size": 5}
+   ,
+{"name": "Planobacterium", "size": 10}
+   ,
+{"name": "Thioploca", "size": 2}
+   ,
+{"name": "Fusibacter", "size": 1}
+   ,
+{"name": "Candidatus Liberibacter", "size": 3}
+   ,
+{"name": "unclassified Erythrobacteraceae", "size": 1}
+   ,
+{"name": "Sandarakinorhabdus", "size": 1}
+   ,
+{"name": "Nocardiopsaceae", "size": 1}
+   ,
+{"name": "Solitalea", "size": 1}
+   ,
+{"name": "Alistipes", "size": 1}
+   ,
+{"name": "Caryophanon", "size": 1}
+   ,
+{"name": "Alishewanella", "size": 178}
+   ,
+{"name": "Thiorhodospira", "size": 1}
+   ,
+{"name": "Unknown Alteromonadales", "size": 1}
+   ,
+{"name": "Unknown Salinicoccus", "size": 4}
+   ,
+{"name": "Lentibacillus", "size": 1}
+   ,
+{"name": "Diaphorobacter", "size": 3}
+   ,
+{"name": "Albidovulum", "size": 2}
+   ,
+{"name": "Henriciella", "size": 1}
+   ,
+{"name": "Exiguobacterium", "size": 2}
+   ,
+{"name": "Endozoicomonas", "size": 1}
+   ,
+{"name": "Unknown Candidatus Hodgkinia", "size": 1}
+   ,
+{"name": "Gemmobacter", "size": 4}
+   ,
+{"name": "Anaplasma", "size": 1}
+   ,
+{"name": "Mangrovibacter", "size": 276}
+   ,
+{"name": "Unknown unclassified Verrucomicrobia", "size": 1}
+   ,
+{"name": "Unknown Desulfovibrionaceae", "size": 2}
+   ,
+{"name": "Sphingosinicella", "size": 1}
+   ,
+{"name": "Robiginitomaculum", "size": 1}
+   ,
+{"name": "Segniliparaceae", "size": 8}
+   ,
+{"name": "Opitutus", "size": 1}
+   ,
+{"name": "Fervidicella", "size": 2}
+   ,
+{"name": "Unknown Chloroflexus", "size": 1}
+   ,
+{"name": "Unknown Thiohalobacter", "size": 2}
+   ,
+{"name": "Unknown Omnitrophica", "size": 1}
+   ,
+{"name": "Unknown Methylococcales", "size": 3}
+   ,
+{"name": "Unknown Latescibacteria", "size": 1}
+   ,
+{"name": "Myxococcaceae", "size": 3}
+   ,
+{"name": "Unknown Legionellales", "size": 2}
+   ,
+{"name": "Unknown Flammeovirgaceae", "size": 4}
+   ,
+{"name": "Unknown Saprospiraceae", "size": 1}
+   ,
+{"name": "Unknown Erythrobacteraceae", "size": 1}
+   ,
+{"name": "Unknown Oceanospirillales", "size": 1}
+   ,
+{"name": "Unknown Thiotrichales", "size": 2}
+   ,
+{"name": "Unknown Desulfobacteraceae", "size": 2}
+   ,
+{"name": "Unknown Candidatus Saccharibacteria", "size": 1}
+   ,
+{"name": "Unknown Bauldia", "size": 1}
+   ,
+{"name": "Pseudoxanthobacter", "size": 51}
+   ,
+{"name": "Lutibacter", "size": 1}
+   ,
+{"name": "Hasllibacter", "size": 2}
+   ,
+{"name": "Rheinheimera", "size": 134}
+   ,
+{"name": "Jeongeupia", "size": 1}
+   ,
+{"name": "Soonwooa", "size": 24}
+   ,
+{"name": "Negativicoccus", "size": 6}
+   ,
+{"name": "Bogoriellaceae", "size": 1}
+   ,
+{"name": "Amphibacillus", "size": 5}
+   ,
+{"name": "Kingella", "size": 3}
+   ,
+{"name": "Unknown Chroococcidiopsis", "size": 1}
+ ]
+}

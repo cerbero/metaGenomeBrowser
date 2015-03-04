@@ -1,0 +1,25 @@
+<% provide(:title, "Log in") %>
+<header class="navbar navbar-fixed-top navbar-inverse">
+    <div style="width:800px; margin:0 auto;">
+        <font size="21" style="color:white">MetaGeNomeBrowser</font>
+    </div>
+</header>
+<h1 style="color:white">Effettuare il Log In per accedere al maraviglioso mondo del MetaGeNomeBrowser</h1>
+<body style="background-color:#2E5E79">
+<div class="row">
+  <div class="col-md-6 col-md-offset-3">
+    <%= form_for(:session, url: login_path) do |f| %>
+
+      <%= f.label :Utente %>
+      <%= f.text_field :email, class: 'form-control' %>
+
+      <%= f.label :password %>
+      <%= f.password_field :password, class: 'form-control' %>
+<h2>
+      <%= f.submit "Log in", class: "btn btn-primary" %>
+</h2>
+    <% end %>
+
+  </div>
+</div>
+

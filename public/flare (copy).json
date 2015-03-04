@@ -1,0 +1,76 @@
+{
+ "name": "philium",
+ "children": [
+	{
+   "name": "analytics",
+   "children": [
+
+        {"name": "Deinococcus-Thermus", "size": 103}
+
+       ]
+},	{
+   "name": "analytics",
+   "children": [
+
+
+        {"name": "candidate division GN09", "size": 1}
+       
+       ]
+},	{
+   "name": "analytics",
+   "children": [
+
+        {"name": "Chlorobi", "size": 17}
+       
+       ]
+},	{
+   "name": "analytics",
+   "children": [
+        {"name": "Microgenomates", "size": 1},
+        {"name": "Fibrobacteres", "size": 2},
+        {"name": "candidate division TM6", "size": 1},
+        {"name": "Omnitrophica", "size": 1},
+        {"name": "Latescibacteria", "size": 1},
+        {"name": "Candidatus Saccharibacteria", "size": 1}
+       ]
+},	{
+   "name": "analytics",
+   "children": [
+        {"name": "candidate division SR1", "size": 7},
+        {"name": "Thermodesulfobacteria", "size": 2},
+        {"name": "Chloroflexi", "size": 83},
+        {"name": "Caldithrix", "size": 1},
+        {"name": "Lentisphaerae", "size": 2},
+        {"name": "Aquificae", "size": 4},
+        {"name": "Nitrospirae", "size": 3},
+        {"name": "Poribacteria", "size": 1},
+        {"name": "Gemmatimonadetes", "size": 10}
+      
+       ]
+}
+,{
+   "name": "analytics",
+   "children": [
+        {"name": "candidate division TG3", "size": 1},
+        {"name": "Elusimicrobia", "size": 9},
+        {"name": "Tenericutes", "size": 12},
+        {"name": "Spirochaetes", "size": 685},
+        {"name": "Planctomycetes", "size": 505},
+        {"name": "Verrucomicrobia", "size": 3},
+        {"name": "Fusobacteria", "size": 3327},
+        {"name": "Armatimonadetes", "size": 6}
+       ]
+},{
+   "name": "analytics",
+   "children": [
+        {"name": "Proteobacteria", "size": 470767},
+        {"name": "Firmicutes", "size": 11324},
+        {"name": "Unknown Bacteria", "size": 325068},
+        {"name": "Actinobacteria", "size": 3575},
+        {"name": "Bacteroidetes", "size": 1475718},
+        {"name": "Cyanobacteria", "size": 15},
+        {"name": "Acidobacteria", "size": 38}
+       ]
+}
+ ]
+}
